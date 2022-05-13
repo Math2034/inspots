@@ -1,0 +1,17 @@
+ion-input{
+    border-radius: 10px;
+    padding-right: 30px;
+    font-size: 0.9em;
+    border: 1px solid #55e26d;
+    max-width: 56vw; // this is applying perfectly
+    max-height: 10vh;
+  }
+
+ion-button{
+  color: black;
+  --background: #49C146;
+}
+
+ion-content{
+  --background: #FBE4D4;
+}

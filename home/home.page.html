@@ -1,21 +1,7 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Inspots
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Inspots</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
     <ion-h2>Selecione uma das seguintes opções</ion-h2><br>
-    <ion-button color="success" (click)="OpenLogin()">Login</ion-button>
-    <ion-button color="success" (click)="OpenCadastro()">Cadastro</ion-button>
+    <ion-button (click)="OpenLogin()">Login</ion-button>
+    <ion-button (click)="OpenCadastro()">Cadastro</ion-button>
   </div>
 </ion-content>
